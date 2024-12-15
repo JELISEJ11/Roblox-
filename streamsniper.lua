@@ -8,11 +8,11 @@ local TextChatService = game:GetService("TextChatService")
 
 -- List of sentences to send
 local sentences = {
-    "ur gay ",
-    "i raped u ",
-    "i fucked your mom and burned her alive ",
-    "i rape children for fun ",
-    "ur gay and u should kys "
+    "ur gay",
+    "i raped your mom and burned her u nigger",
+    "i burned your mom she is in my dick",
+    "i rape children and let them hang while torchering them",
+    "kill yourself if you are gay"
 }
 
 -- Function to send a chat message
@@ -23,8 +23,10 @@ local function sendChatMessage(message)
     end
 end
 
--- Send all sentences with a 0.2 second delay
-for _, sentence in ipairs(sentences) do
-    sendChatMessage(sentence)
-    wait(0.2) -- Delay between messages
+-- Infinite loop to send messages
+while true do
+    for _, sentence in ipairs(sentences) do
+        sendChatMessage(sentence)
+        wait(0.2) -- Delay between messages
+    end
 end
